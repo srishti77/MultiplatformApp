@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml:2:1-4:42
+INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml:2:1-4:42
+INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml:2:1-4:42
+	package
+		ADDED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml:2:11-69
+	android:usesCleartextTraffic
+		ADDED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml:4:5-40
+uses-sdk
+INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/srishtigaihre/Documents/MultiplatformApp/SharedCode/src/androidMain/AndroidManifest.xml
