@@ -11,7 +11,6 @@ import kotlin.coroutines.CoroutineContext
 @ExperimentalStdlibApi
 class MainActivity : AppCompatActivity(), CoroutineScope {
 
-
     @InternalAPI
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

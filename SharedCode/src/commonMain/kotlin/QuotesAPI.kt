@@ -24,13 +24,14 @@ class ProductsAPI {
     }
 
     suspend fun fetchRandomQuotes(): String {
-        return client.get<Quote> {
+        val quotes = client.get<Quote> {
             url(BASE_URL)
-        }.en
+        }
+        return "${quotes.en} - By ${quotes.author}"
     }
 
     companion object {
         const val BASE_URL =
-            "https://programming-quotes-api.herokuapp.com/quotes/random"
+            "https://programming-quotes-api.herokuapp.com/quotes/id/5a6ce86f2af929789500e824"
     }
 }
