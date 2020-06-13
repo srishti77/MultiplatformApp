@@ -6,14 +6,12 @@ import io.ktor.client.features.json.JsonFeature
 import io.ktor.client.features.json.serializer.KotlinxSerializer
 import io.ktor.client.request.get
 import io.ktor.client.request.url
-import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.serialization.json.Json.Default.nonstrict
 
 expect val engine: HttpClientEngine
-expect val mainDispatcher: CoroutineDispatcher
 
 @ExperimentalStdlibApi
-class ProductsAPI {
+class QuotesAPI {
 
     private val client by lazy {
         HttpClient(engine) {

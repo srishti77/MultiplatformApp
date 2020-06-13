@@ -16,8 +16,8 @@ actual fun platformName(): String {
             UIDevice.currentDevice.systemVersion
 }
 
-actual val mainDispatcher: CoroutineDispatcher = NsQueueDispatcher(dispatch_get_main_queue())
 actual val engine: HttpClientEngine = Ios.create()
+actual val mainDispatcher: CoroutineDispatcher = NsQueueDispatcher(dispatch_get_main_queue())
 
 private class NsQueueDispatcher(
     private val dispatchQueue: dispatch_queue_t

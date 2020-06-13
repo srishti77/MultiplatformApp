@@ -138,15 +138,15 @@ __attribute__((swift_name("KotlinBoolean")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ProductsAPI")))
-@interface SharedCodeProductsAPI : SharedCodeBase
+__attribute__((swift_name("QuotesAPI")))
+@interface SharedCodeQuotesAPI : SharedCodeBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ProductsAPI.Companion")))
-@interface SharedCodeProductsAPICompanion : SharedCodeBase
+__attribute__((swift_name("QuotesAPI.Companion")))
+@interface SharedCodeQuotesAPICompanion : SharedCodeBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
